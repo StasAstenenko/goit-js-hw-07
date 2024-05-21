@@ -15,7 +15,6 @@ function handleSubmit(e) {
         alert('All form fields must be filled in');
     } else {
         console.log(user);
+        form.reset();
     }
-
-    form.reset();
 }
